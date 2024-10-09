@@ -30,7 +30,7 @@ const CreateSecretForm = () => {
         <div className="response_secret" id="response_secret"><p>https://www.zaslink.com/secret/3656181b-61cb-47c4-bf50-29dc7469f1dc asdas d as das ads ads. </p></div>
         <form className="form" onSubmit={handleSubmit(makeRequest)}>
             <h2 className="form__title">ZasLink</h2>
-            <p className="form__paragraph">Comparte passwords, links, ...</p>
+            <p className="form__paragraph">Share passwords, links, ...</p>
             <div className="form__container">
                 <div className="form__group">
                     <input type="textarea" id="content" className="form__input" placeholder=" " {...register('content', {
